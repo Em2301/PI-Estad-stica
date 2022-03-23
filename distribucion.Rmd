@@ -1,0 +1,37 @@
+---
+title: "distribución2"
+output: pdf_document
+date: '2022-03-23'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+----------------------------------------------------------
+                            DISTRIBUCIÓN
+----------------------------------------------------------
+probabilidad de que 35 alumnos lleguen en 15 minutos a la entrada de la escuela.
+x= número de alumnos
+lamda=tiempo de llegada.
+
+
+```{r}
+dpois(35,15)
+```
+
+
+
+probabilidad de que 50 alumnos lleguen en 15 minutos a la entrada de la escuela.
+x= número de alumnos
+lamda=tiempo de llegada.
+
+```{r}
+dpois(50,15)
+```
+
+-------------------------------------------------------
+           conclusión
+--------------------------------------------------------
+
+A mayor tiempo, menos aglomeración
